@@ -40,7 +40,7 @@ clear
 bash about.sh
 sleep 6.0
 cd $HOME/hacklock/
-bash hacklock.sh
+vk hacklock.sh
 echo
 
 elif [[ $option == 3 || $option == 03 ]]; then
@@ -49,7 +49,7 @@ cd $HOME/hacklock/core/update/
 bash update.sh
 sleep 6
 cd $HOME/hacklock/
-bash hacklock.sh
+vk hacklock.sh
 echo
 elif [[ $option == 4 ]]; then
 exit 1
@@ -87,7 +87,7 @@ fi
 
 banner() {
 printf "\n"
-printf "\e[1;33m  _|    _|                      _|        _|                            _|\e[0m\n"
+printf "\e[1;44m  _|    _|                      _|        _|                            _|\e[0m\n"
 printf "\e[1;33m  _|    _|    _|_|_|    _|_|_|  _|  _|    _|          _|_|      _|_|_|  _|  _| \e[0m\n"
 printf "\e[1;31m  _|_|_|_|  _|    _|  _|        _|_|      _|        _|    _|  _|        _|_\e[0m\n"
 printf "\e[1;92m  _|    _|  _|    _|  _|        _|  _|    _|        _|    _|  _|        _|  _|\e[0m\n"
